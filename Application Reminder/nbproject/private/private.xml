@@ -2,14 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/Controlers/ReminderManager.java</file>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/Database/DBmain.java</file>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/JFrames/WelcomeFrame.java</file>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/Database/DBconnector.java</file>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/JFrames/DeleteConfirmationBox.java</file>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/Controlers/Reminder.java</file>
-            <file>file:/D:/NSBM/3rd/JAVA/Assignment/Application%20Reminder/src/JFrames/ReminderFrame.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

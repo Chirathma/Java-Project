@@ -1,47 +1,27 @@
-
 package Database;
-import java.sql.*;
 /**
  *
  * @author Devni
  */
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 public class DBconnector 
 {
-    private Connection con;
-    private Statement st;
-    private ResultSet rs;
-    
-    public DBconnector()
+    public static Connection getConnection()
     {
-        try
-        {
-            Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:    /test","root","");
-            //st con.createStatement();
-       
-        }
-        catch(Exception ex)
-        {
-            System.out.println("Error: " + ex);
-        }              
-    }
-    public void getData()
-    {
+        Connection con;
         try{
-            String query = "select * from Reminder";
-            rs= st.executeQuery(query);
-            System.out.println("Records from DB");
-            /*while(rs.next())
-            {
-                String Reminder Name = rs.getString("Name");
-                String 
-            }*/
-        }   
-        
-        
-        catch(Exception ex)
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaproject", "root", "123");
+            return con;
+        }
+        catch(Exception e)
         {
-            System.out.println(ex);
+            e.printStackTrace();
+            return null;
         }
     }
+    
+    
+   
 }
